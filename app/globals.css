@@ -2,3 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+.App{
+    display: flex;
+}
+
+.typed-cursor{
+    display: block;
+    font-size: 100px;
+    color: #669BBC;
+}
