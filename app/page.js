@@ -14,7 +14,6 @@ export default function Home() {
     <main className='max-w-[80%] m-auto'>
       <Hero/>
       <BarraResumen/>
-      <AcercaMi/>
       <Tecnologias/>
       <section>Proyectos</section>
       <section>Contactame</section>
