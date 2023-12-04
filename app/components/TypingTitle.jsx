@@ -2,7 +2,7 @@
 import React from 'react';
 import Typed from 'typed.js';
 
-export function MyComponent() {
+export function TypingTitle() {
   // Create reference to store the DOM element containing the animation
   const el = React.useRef(null);
 
@@ -24,7 +24,7 @@ export function MyComponent() {
 
   return (
     <div className="App">
-      <h2 className='font-black text-9xl text-[#669BBC] underline' ref={el}>Frontend Developer</h2>
+      <h2 className='font-black text-8xl text-[#669BBC] underline' ref={el}>Frontend Developer</h2>
     </div>
   );
 }
