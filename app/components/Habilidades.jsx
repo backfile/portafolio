@@ -11,9 +11,9 @@ export function Habilidades(){
     },[])
 
     return(
-      <section data-aos="zoom-in" className="flex flex-col text-center items-center mt-7">
-        <h2 className='font-black text-5xl text-[#669BBC] mt-32 mb-10'>HABILIDADES</h2>
-        <div className='grid grid-cols-3 items-center gap-10 p-8 border-2 border-[#293e4b] shadow-2xl rounded-2xl'>
+      <section data-aos="zoom-in" className="flex flex-col text-center items-center mt-7 max-[600px]:mt-2" id="habilidades">
+        <h2 className='font-black text-5xl text-[#669BBC] mt-32 mb-10 max-[600px]:text-3xl'>HABILIDADES</h2>
+        <div className='grid grid-cols-3 items-center gap-10 p-8 border-2 border-[#293e4b] shadow-2xl rounded max-[600px]:gap-5 max-[600px]:p-4'>
           <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="none" viewBox="0 0 191 158">
               <path fill="#E44D26" d="M35.813 138.25 23.874 14.812h143.25L155.188 138.25 95.5 153.062 35.812 138.25Z"/>
               <path fill="#F16529" d="M155.188 24.688H95.5v120.968l47.75-12.344 11.938-108.625Z"/>

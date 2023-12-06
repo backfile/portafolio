@@ -23,8 +23,8 @@ export function TypingTitle() {
   }, []);
 
   return (
-    <div className="App">
-      <h2 className='font-black text-8xl text-[#669BBC] underline' ref={el}>Frontend Developer</h2>
+    <div className="App ">
+      <h2 className='font-black text-8xl text-[#669BBC] underline max-[600px]:text-5xl max-[600px]:text-center' ref={el}>Frontend Developer</h2>
     </div>
   );
 }

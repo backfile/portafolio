@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+
+ul, li{
+    padding: 0;
+    margin: 0;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -21,4 +27,23 @@
 
 .top-react-icons{
     color: white;
+}
+
+html{
+    scroll-padding-top: 220px;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (max-width: 600px){
+    .typed-cursor{
+        display: none;
+    }
+
+    .grid-container{
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
 }
