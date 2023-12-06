@@ -17,8 +17,8 @@ export function Header(){
           </div>
           <div className={`transition-all flex gap-10 max-[600px]:${isOpen ? "open" : "hidden"} max-[600px]:h-[calc(100vh-98px)] max-[600px]:absolute max-[600px]:bg-[rgba(17,25,40,.75)] max-[600px]:flex-col max-[600px]:justify-center max-[600px]:items-center max-[600px]:right-0 max-[600px]:left-0 max-[600px]:top-[98px]
            max-[600px]:text-2xl max-[600px]:font-bold`}>
-            <li onClick={()=> setIsOpen(false)}><a href="#proyectos" className="no-underline  text-white">Proyectos</a></li>
             <li onClick={()=> setIsOpen(false)}><a href="#inicio" className="no-underline text-white">Inicio</a></li>
+            <li onClick={()=> setIsOpen(false)}><a href="#proyectos" className="no-underline  text-white">Proyectos</a></li>
             <li onClick={()=> setIsOpen(false)}><a href="#habilidades" className="no-underline text-white">Habilidades</a></li>
           </div>
           <div className="md:hidden">
