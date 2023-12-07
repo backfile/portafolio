@@ -14,7 +14,6 @@ export function TypingTitle() {
       autoInsertCss: true,
       showCursor: true,
       autoInsertCss: true,
-      loop: true,
     });
 
     return () => {
