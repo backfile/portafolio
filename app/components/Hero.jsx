@@ -25,7 +25,7 @@ export function Hero(){
             <button className='bg-[#FDF0D5] p-2 rounded w-[150px] ml-5 hover:bg-slate-700 hover:text-white transition-all'>Descargar CV</button>
           </div>
         </div>
-        <div className="absolute bottom-24 left-[49.2%] animate-bounce max-[600px]:left-[48%]">
+        <div className="absolute bottom-24 left-[49.2%] animate-bounce max-[600px]:left-[46.5%]">
           <FaAngleDoubleDown color="#FDF0D5"  size={35}/>
         </div>
       </section>
