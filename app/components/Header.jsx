@@ -13,7 +13,7 @@ export function Header(){
         <ul className='flex items-center justify-between gap-14 p-6 pl-0 pr-0 text-[#FDF0D5] h-[100%] max-w-[65%] m-auto max-[600px]:max-w-[90%]'>
           <div className="flex items-center gap-2" >
             <FaCodeBranch/>
-            <li className="font-black text-xl cursor-pointer text-[#FDF0D5] max-[600px]:">Francoder</li>
+            <li className="font-black text-xl text-[#FDF0D5] max-[600px]:">Francoder</li>
           </div>
           <div className={`transition-all flex gap-10 max-[600px]:${isOpen ? "open" : "hidden"} max-[600px]:h-[calc(100vh-98px)] max-[600px]:absolute max-[600px]:bg-[rgba(17,25,40,.75)] max-[600px]:flex-col max-[600px]:justify-center max-[600px]:items-center max-[600px]:right-0 max-[600px]:left-0 max-[600px]:top-[98px]
            max-[600px]:text-2xl max-[600px]:font-bold`}>
