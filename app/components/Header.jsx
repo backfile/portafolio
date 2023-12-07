@@ -10,7 +10,7 @@ export function Header(){
 
     return(
       <header className='z-10 shadow-xl bg-[#e0582ca] bg-[#003049]  fixed top-0 w-[100%] '>
-        <ul className='flex items-center justify-between gap-14 p-6 pl-0 pr-0 text-[#FDF0D5] h-[100%] max-w-[65%] m-auto max-[600px]:max-w-[95%]'>
+        <ul className='flex items-center justify-between gap-14 p-6 pl-0 pr-0 text-[#FDF0D5] h-[100%] max-w-[65%] m-auto max-[600px]:max-w-[90%]'>
           <div className="flex items-center gap-2" >
             <FaCodeBranch/>
             <li className="font-black text-xl cursor-pointer text-[#FDF0D5] max-[600px]:">Francoder</li>

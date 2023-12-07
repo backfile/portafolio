@@ -12,7 +12,7 @@ export default function Home() {
   return (
   <>
     <Header/>
-    <main className='max-w-[65%] m-auto max-[600px]:max-w-[95%]'>
+    <main className='max-w-[65%] m-auto max-[600px]:max-w-[90%]'>
       <Hero/>
       <BarraResumen/>
       <Proyectos>
