@@ -6,7 +6,7 @@ import { FaAngleDoubleDown } from "react-icons/fa";
 
 export function Hero(){
     return(
-      <section id="inicio" className='flex flex-col justify-center min-h-screen mb-20'>
+      <section id="inicio" className='flex flex-col justify-center min-h-screen mb-10'>
         <div className='flex-col flex'>
           <h1 className='text-6xl font-bold text-[#FDF0D5] mb-14 max-[600px]:text-3xl max-[600px]:text-center'><span className='text-[16px] text-[#FCDA95] max-[600px]:text-xl'>¡Hola! Mi nombre es,</span><br/>Franco Caraffa.</h1>
           <TypingTitle/>
